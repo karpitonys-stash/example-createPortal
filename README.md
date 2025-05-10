@@ -1,15 +1,9 @@
-# React + Typescript + Tailwind 템플릿
+# `ReactDOM.createPortal`로 모달, 토스트 구현하기 예제
 
-## 종속성
+## 시작하기
 ```
-- tailwindcss 4.0
-- @yeahx4/cn
-- react-router v7(library mode)
-```
-- `@/pages/_Layout`같은 Next.js식 임포트 가능
+git clone https://github.com/karpitonys-stash/example-createPortal.git
 
-## 시작
-```
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
