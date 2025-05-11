@@ -15,7 +15,7 @@ interface ToastContainerProps {
 function ToastContainer({ toasts, onClose, closeDelay }: ToastContainerProps) {
   // 우측 상단에 쌓이도록 토스트 컨테이너를 포탈로 렌더링
   return createPortal(
-    <div className="fixed top-4 right-4 flex flex-col items-end z-50">
+    <div className="fixed top-4 right-4 flex flex-col items-end">
       {toasts.slice().reverse().map((toast) => (
         <Toast
           key={toast.id}

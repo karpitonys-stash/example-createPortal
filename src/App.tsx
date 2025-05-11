@@ -39,6 +39,8 @@ export default function App() {
 
       <Modal open={isModalOpen} onClose={() => setModalOpen(false)} />
       <ToastContainer toasts={toasts} onClose={handleToastClose} closeDelay={2000} />
+
+      <p className="mt-[90vh]">스크롤 테스트용</p>
     </div>
   );
 }
